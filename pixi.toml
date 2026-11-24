@@ -2,11 +2,11 @@
 authors = ["FreekPols <c.f.j.pols@tudelft.nl>"]
 channels = ["conda-forge"]
 name = "NP-new-style"
-platforms = ["win-64"]
+platforms = ["win-64", "osx-arm64"]
 version = "0.1.0"
 
 [tasks]
-
+editor = "jupyter lab"
 [dependencies]
 mystmd = ">=1.10.1,<2"
 jupytext = ">=1.19.5,<2"
